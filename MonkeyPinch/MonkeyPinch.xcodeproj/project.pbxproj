@@ -14,6 +14,12 @@
 		60312FDD1EA5442800522FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60312FDB1EA5442800522FDB /* LaunchScreen.storyboard */; };
 		60312FE81EA5442900522FDB /* MonkeyPinchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60312FE71EA5442900522FDB /* MonkeyPinchTests.swift */; };
 		60312FF31EA5442900522FDB /* MonkeyPinchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60312FF21EA5442900522FDB /* MonkeyPinchUITests.swift */; };
+		609CA6D11EA547F7004DAD16 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6CB1EA547F7004DAD16 /* banana.png */; };
+		609CA6D21EA547F7004DAD16 /* banana@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6CC1EA547F7004DAD16 /* banana@2x.png */; };
+		609CA6D31EA547F7004DAD16 /* chomp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6CD1EA547F7004DAD16 /* chomp.caf */; };
+		609CA6D41EA547F7004DAD16 /* hehehe1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6CE1EA547F7004DAD16 /* hehehe1.caf */; };
+		609CA6D51EA547F7004DAD16 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6CF1EA547F7004DAD16 /* monkey.png */; };
+		609CA6D61EA547F7004DAD16 /* monkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609CA6D01EA547F7004DAD16 /* monkey@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		60312FEE1EA5442900522FDB /* MonkeyPinchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyPinchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60312FF21EA5442900522FDB /* MonkeyPinchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyPinchUITests.swift; sourceTree = "<group>"; };
 		60312FF41EA5442900522FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609CA6CB1EA547F7004DAD16 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		609CA6CC1EA547F7004DAD16 /* banana@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banana@2x.png"; sourceTree = "<group>"; };
+		609CA6CD1EA547F7004DAD16 /* chomp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chomp.caf; sourceTree = "<group>"; };
+		609CA6CE1EA547F7004DAD16 /* hehehe1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hehehe1.caf; sourceTree = "<group>"; };
+		609CA6CF1EA547F7004DAD16 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		609CA6D01EA547F7004DAD16 /* monkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monkey@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 				60312FD91EA5442800522FDB /* Assets.xcassets */,
 				60312FDB1EA5442800522FDB /* LaunchScreen.storyboard */,
 				60312FDE1EA5442800522FDB /* Info.plist */,
+				609CA6D71EA548E0004DAD16 /* MonkeyPinchResources */,
 			);
 			path = MonkeyPinch;
 			sourceTree = "<group>";
@@ -123,6 +136,19 @@
 				60312FF41EA5442900522FDB /* Info.plist */,
 			);
 			path = MonkeyPinchUITests;
+			sourceTree = "<group>";
+		};
+		609CA6D71EA548E0004DAD16 /* MonkeyPinchResources */ = {
+			isa = PBXGroup;
+			children = (
+				609CA6CB1EA547F7004DAD16 /* banana.png */,
+				609CA6CC1EA547F7004DAD16 /* banana@2x.png */,
+				609CA6CD1EA547F7004DAD16 /* chomp.caf */,
+				609CA6CE1EA547F7004DAD16 /* hehehe1.caf */,
+				609CA6CF1EA547F7004DAD16 /* monkey.png */,
+				609CA6D01EA547F7004DAD16 /* monkey@2x.png */,
+			);
+			name = MonkeyPinchResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609CA6D51EA547F7004DAD16 /* monkey.png in Resources */,
+				609CA6D31EA547F7004DAD16 /* chomp.caf in Resources */,
 				60312FDD1EA5442800522FDB /* LaunchScreen.storyboard in Resources */,
 				60312FDA1EA5442800522FDB /* Assets.xcassets in Resources */,
+				609CA6D61EA547F7004DAD16 /* monkey@2x.png in Resources */,
+				609CA6D21EA547F7004DAD16 /* banana@2x.png in Resources */,
+				609CA6D11EA547F7004DAD16 /* banana.png in Resources */,
 				60312FD81EA5442800522FDB /* Main.storyboard in Resources */,
+				609CA6D41EA547F7004DAD16 /* hehehe1.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +546,7 @@
 				60312FF91EA5442900522FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60312FFA1EA5442900522FDB /* Build configuration list for PBXNativeTarget "MonkeyPinchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +555,7 @@
 				60312FFC1EA5442900522FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60312FFD1EA5442900522FDB /* Build configuration list for PBXNativeTarget "MonkeyPinchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +564,7 @@
 				60312FFF1EA5442900522FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
